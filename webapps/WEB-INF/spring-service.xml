@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd"
+	default-autowire="byName">
+
+
+	<!-- <bean id="httpConnectionClientUtf8" class="com.jrj.common.net.HttpConnectionClient" autowire="default">
+		<property name="connectionTimeOut" value="10000"/>
+		<property name="connectionMaxTotal" value="300"/>
+		<property name="connectionMaxPerHost" value="100"/>
+		<property name="soTimeOut" value="18000"/>
+		<property name="codeing" value="utf-8"/>
+	</bean>
+
+	<bean id="simpleRestClient" class="com.jrj.common.net.SimpleRestClient">
+		<property name="httpConnectionClient" ref="httpConnectionClientUtf8"></property>
+	</bean>
+	
+	mobile service config
+	<bean id="updateChecking" class="com.xld.xjb.web.rest.service.FUCheckingService" autowire="default">
+		<property name="updateUrl" value="http://mobilead.jrj.com.cn:80/getForceUpdateInfo?keyInfo=wx74ce2511217cef99"/>
+		<property name="updateInfoTimeOut" value="7200"/>
+		<property name="updateMsg" value="当前版本过低，需要升级软件版本才能正常使用！"/>
+	</bean>
+	<bean id="mobileServicesStatus" class="com.xld.xjb.web.rest.service.MobileServicesStatus"  init-method="init" autowire="default">
+		<property name="mbServiceFile" value="mobile_service.xml"/>
+	</bean> -->
+	
+</beans>
